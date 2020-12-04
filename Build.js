@@ -1,7 +1,6 @@
 const failedTest = ({ failure } = obj) => {
-    const math = Math.pow(5, 4);
-    console.log(math)
-    return failure, math;
+    console.log(Math.pow(5, 4));
+    return failure;
 
 };
 
