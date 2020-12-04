@@ -1,4 +1,4 @@
-const failedTest = (failuressss) => {
+const failedTest = (failuresssss) => {
     return failuresssss
 }
 
