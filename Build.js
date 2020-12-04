@@ -1,7 +1,6 @@
-const failedTest = (failuresssss) => {
-    return failuresssss
-}
-
+const failedTest = ({ failure } = obj) => {
+    return failure;
+};
 module.exports = {
     failedTest
-}
+};
