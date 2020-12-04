@@ -1,0 +1,31 @@
+{
+  "dependencies": {
+    "init": "^0.1.2"
+  },
+  "name": "01-BUILD",
+  "description": "",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {
+    "@types/jest": "^26.0.16",
+    "eslint": "^7.14.0",
+    "jest": "^26.6.3"
+  },
+  "scripts": {
+    "test": "jest",
+    "test:watch": "npm run test -- --watch",
+    "start": "node server.js",
+    "start:watch": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jumpybuns/01-BUILD.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jumpybuns/01-BUILD/issues"
+  },
+  "homepage": "https://github.com/jumpybuns/01-BUILD#readme"
+}
